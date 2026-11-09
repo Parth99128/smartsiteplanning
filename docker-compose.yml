@@ -1,0 +1,70 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-floodshield}
+      POSTGRES_USER: ${POSTGRES_USER:-floodshield}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-floodshield}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+  ml-service:
+    build: ./ml-service
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL_PATH: /app/models/rf_flood_model.pkl
+      MODEL_VERSION: ${MODEL_VERSION:-rf-v2}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    volumes:
+      - ./ml-service/models:/app/models:ro
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request,sys;sys.exit(0 if urllib.request.urlopen('http://localhost:8000/health',timeout=5).status==200 else 1)\""]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/${POSTGRES_DB:-floodshield}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER:-floodshield}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD:-floodshield}
+      ML_SERVICE_URL: http://ml-service:8000
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173,http://localhost:5174,http://localhost:4173}
+    depends_on:
+      db:
+        condition: service_healthy
+      ml-service:
+        condition: service_started
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8080/actuator/health | grep -q '\"status\":\"UP\"'"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    restart: unless-stopped
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:80"
+    environment:
+      VITE_API_URL: http://localhost:8080
+      VITE_ML_URL: http://localhost:8000
+    depends_on:
+      backend:
+        condition: service_started
+    restart: unless-stopped
+volumes:
+  pgdata:

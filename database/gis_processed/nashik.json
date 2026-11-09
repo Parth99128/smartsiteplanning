@@ -1,0 +1,10 @@
+{
+  "city": "nashik",
+  "files": [
+    "Nashik-OSM-Hydro.geojson"
+  ],
+  "lines": 142,
+  "points": 0,
+  "dropped_stubs": 0,
+  "source": "OSM-waterway-2026"
+}

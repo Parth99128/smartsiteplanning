@@ -1,0 +1,26 @@
+{
+  "model_version": "rf-v2",
+  "rmse": 5.883452262170571,
+  "mae": 4.6180256635574075,
+  "r2": 0.7075200251289977,
+  "samples": 5000,
+  "trees": 200,
+  "seed": 42,
+  "features": [
+    "rainfall_mm",
+    "elevation_m",
+    "slope_deg",
+    "dist_water_m",
+    "drainage_density",
+    "soil_infiltration_mmhr",
+    "impervious_pct",
+    "footprint_sqm",
+    "hist_flood_count",
+    "plinth_m",
+    "land_use_change_pct",
+    "catchment_sqm"
+  ],
+  "data_id": "synthetic-v2",
+  "synthetic": true,
+  "trained_at": "2026-09-23T13:34:31Z"
+}

@@ -1,0 +1,5 @@
+-- Production seed: idempotent reference admin only. No demo projects.
+-- Real projects are created via POST /api/projects. Keep this file empty on
+-- purpose so fresh installs start clean. Uncomment below for a local smoke-test
+-- admin (remove before sharing the database).
+-- INSERT INTO users(email, name) VALUES ('admin@example.com', 'Admin') ON CONFLICT DO NOTHING;

@@ -1,0 +1,10 @@
+{
+  "city": "bengaluru",
+  "files": [
+    "Bengaluru-SWD-2022.kml"
+  ],
+  "lines": 6809,
+  "points": 0,
+  "dropped_stubs": 39,
+  "source": "KSRSAC-2022-via-OpenCity"
+}

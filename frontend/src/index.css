@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;600;700&display=swap');
+@import 'leaflet/dist/leaflet.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- base ---------- */
+html { scroll-behavior: smooth; }
+body {
+  @apply bg-ink text-slate-100 font-sans antialiased;
+  background:
+    radial-gradient(1100px 520px at 12% -8%, rgba(14,116,144,.28), transparent 60%),
+    radial-gradient(900px 460px at 88% 2%, rgba(124,58,237,.20), transparent 60%),
+    radial-gradient(700px 700px at 50% 110%, rgba(13,148,136,.12), transparent 60%),
+    #070f20;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+}
+
+/* ---------- surfaces ---------- */
+.glass {
+  @apply bg-white/[.055] backdrop-blur-xl border border-white/10 rounded-2xl;
+  box-shadow: 0 8px 32px -12px rgba(0,0,0,.65), inset 0 1px 0 rgba(255,255,255,.07);
+}
+.glass-strong {
+  @apply bg-white/[.08] backdrop-blur-2xl border border-white/15 rounded-2xl;
+  box-shadow: 0 16px 48px -16px rgba(0,0,0,.7), inset 0 1px 0 rgba(255,255,255,.09);
+}
+.card-hover { transition: transform .25s cubic-bezier(.21,.9,.35,1), box-shadow .25s, border-color .25s; }
+.card-hover:hover { transform: translateY(-2px); border-color: rgba(45,212,191,.35); box-shadow: 0 0 44px -10px rgba(20,184,166,.45); }
+
+.eyebrow { @apply text-[11px] font-bold uppercase tracking-[.14em] text-slate-400; }
+.h-display { @apply font-extrabold tracking-tight text-slate-50; }
+
+/* ---------- controls ---------- */
+.btn { @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition active:scale-[.98] disabled:opacity-40 disabled:pointer-events-none select-none; }
+.btn-primary { @apply btn bg-gradient-to-r from-cyan-400 to-teal-400 text-[#0b1526] hover:brightness-110; box-shadow: 0 0 30px -8px rgba(34,211,238,.7); }
+.btn-ghost { @apply btn bg-white/10 text-slate-200 hover:bg-white/20 border border-white/10; }
+.btn-danger { @apply btn bg-red-500/90 text-white hover:bg-red-400; }
+.btn-violet { @apply btn bg-gradient-to-r from-violet-400 to-fuchsia-400 text-[#0b1526] hover:brightness-110; }
+.btn-sm { @apply px-3 py-1.5 text-xs rounded-full; }
+
+.field { @apply w-full bg-white/5 border border-white/10 rounded-xl px-3 py-2 text-sm text-slate-100 placeholder:text-slate-500 outline-none transition focus:border-teal-400/60 focus:ring-2 focus:ring-teal-400/30; }
+select.field option { color: #0b1526; }
+
+input[type=range] { @apply w-full accent-teal-400 h-1.5 cursor-pointer; }
+input[type=checkbox] { @apply accent-teal-400 w-3.5 h-3.5; }
+
+/* ---------- feedback ---------- */
+.skeleton { position: relative; overflow: hidden; @apply rounded-2xl bg-white/[.06] border border-white/10; }
+.skeleton::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(148,197,255,.10), transparent);
+  animation: shimmer 1.6s infinite;
+}
+@keyframes shimmer { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+
+.chip { @apply inline-flex items-center gap-1.5 text-[11px] font-bold px-2.5 py-1 rounded-full border; }
+.chip-ok { @apply chip bg-emerald-500/15 border-emerald-400/30 text-emerald-300; }
+.chip-warn { @apply chip bg-amber-500/15 border-amber-400/30 text-amber-300; }
+.chip-bad { @apply chip bg-red-500/15 border-red-400/30 text-red-300; }
+.chip-info { @apply chip bg-cyan-500/15 border-cyan-400/30 text-cyan-300; }
+.chip-dim { @apply chip bg-white/5 border-white/10 text-slate-300; }
+
+/* ---------- map + 3d frames ---------- */
+.leaflet-container { border-radius: 1rem; background: #0a1a33; font-family: inherit; }
+#fs3d canvas { display: block; border-radius: 1rem; }
+.twin-controls button { font-size: 11px; padding: .375rem .625rem; }
+@media (min-width: 640px) {
+  .twin-controls button { font-size: 12px; padding: .375rem .75rem; }
+}
+/* narrow twin (half-width dashboard column): shrink chrome so it never covers the scene */
+.twin-narrow .twin-controls { max-width: 46% !important; gap: .25rem !important; }
+.twin-narrow .twin-controls button { font-size: 10px !important; padding: .25rem .5rem !important; }
+.twin-narrow .twin-legend { max-width: 196px !important; }
+.frame { @apply glass p-4; }
+.frame-head { @apply flex items-center justify-between gap-2 mb-3 flex-wrap; }
+.frame-title { @apply font-bold text-[15px] tracking-tight text-slate-100; }
+.frame-sub { @apply text-xs font-normal text-slate-400; }
+
+/* ---------- motion ---------- */
+.view-enter > * { animation: fade-up .45s cubic-bezier(.21,.9,.35,1) both; }
+.view-enter > *:nth-child(2) { animation-delay: .06s; }
+.view-enter > *:nth-child(3) { animation-delay: .12s; }
+.view-enter > *:nth-child(4) { animation-delay: .18s; }
+@keyframes fade-up { 0% { opacity: 0; transform: translateY(10px); } 100% { opacity: 1; transform: translateY(0); } }
+
+/* ---------- polish ---------- */
+::selection { background: rgba(34,211,238,.35); }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #070f20; }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #0e7490, #14b8a6); border-radius: 8px; border: 2px solid #070f20; }
+:focus-visible { outline: 2px solid rgba(45,212,191,.7); outline-offset: 2px; }
+.divider { @apply border-t border-white/10; }
+.num { font-variant-numeric: tabular-nums; }
+
+@media print {
+  aside, header, footer, button { display: none !important; }
+  body { background: #fff; }
+  .glass, .glass-strong { box-shadow: none; border: 1px solid #ddd; }
+}

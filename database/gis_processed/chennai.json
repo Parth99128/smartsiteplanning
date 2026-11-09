@@ -1,0 +1,10 @@
+{
+  "city": "chennai",
+  "files": [
+    "Chennai-SWD-2023.kml"
+  ],
+  "lines": 10270,
+  "points": 0,
+  "dropped_stubs": 6,
+  "source": "GCC-2023-via-OpenCity"
+}

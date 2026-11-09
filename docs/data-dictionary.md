@@ -1,0 +1,22 @@
+# Data dictionary (key columns)
+- users(id, email, name)
+- projects(id, user_id, name, share_token `sh_` + secure random, created_at)
+- project_sites(project_id, location GEOGRAPHY(Point), site_area_sqm, footprint_sqm, floors, builtup_pct, green_sqm, permeable_sqm, soil_type, drainage_info)
+- environmental_factors(project_id, rainfall_mm, elevation_m, slope_deg, dist_water_m, drainage_density, soil_infiltration_mmhr, impervious_pct, hist_flood_count, plinth_m)
+- flood_history(project_id, year, depth_m, source)
+- drainage_paths(project_id, geom GEOGRAPHY(LineString), intersects_building BOOL)
+- heightmap_grids(project_id, size INT, cell_m FLOAT, payload JSONB incl. source/synthetic)
+- risk_assessments(project_id, risk_score, risk_level, contributions JSONB, resilience_score, badge, climate_uplift_pct, created_at)
+- construction_designs(project_id, footprint_sqm, plinth_m, storage_m3, rain_garden BOOL, permeable_sqm)
+- recommendations(project_id, problem, action, reason, effect, priority, cost_band, gain_pts)
+- interventions catalogue in ML recommend()
+- simulation_results(project_id, input JSONB, risk_score, resilience_score, created_at)
+- cities(code, name, bbox_*, drain_count, inlet_count, source) — pilot registries: chennai, bengaluru, pune
+- drain_lines(id, city, geom LineString, kind, type_label, width_m, dia_mm, status, source) — municipal KML via tools/import-gis
+- drain_points(id, city, geom Point, kind=chamber|inlet|outlet|stp|pump, source) — e.g. Pune SWD chambers
+- site_contexts(project_id, city, lat, lng, confidence, payload JSONB) — measured context stored at analyze time
+- building_placement(project_id, cx, cy 0..1) — draggable proposed-block center driving the flow bbox + twin
+- design_schemes(id, project_id, name, input JSONB, result JSONB) — optioneering snapshots (cap 6/site)
+- site_assets(id, project_id, kind, name, lat, lng, capacity_m3) — RWH pits, sumps, pumps
+- gis_imports(city, file_hash, features, inlets, imported_at) — import audit
+No demo rows. Fresh installs start empty; projects are created via the API. Registry tables stay empty until KML drops are imported (database/gis_raw/README.md).

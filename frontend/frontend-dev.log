@@ -1,0 +1,323 @@
+
+> dev
+> vite --host 0.0.0.0 --port 5173
+
+
+  [32m[1mVITE[22m v5.4.9[39m  [2mready in [0m[1m689[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.4:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.19.144.1:[1m5173[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m10:34:48 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m10:34:54 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m10:35:06 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:35:29 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:35:36 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:35:43 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:35:50 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:41:30 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m10:54:02 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:54:10 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:54:23 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/DrainNetwork.jsx, /src/index.css[22m
+[2m10:54:32 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:54:40 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:55:16 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:55:26 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:55:43 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:55:51 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:56:04 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:56:19 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:56:28 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m11:00:28 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:00:40 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:00:49 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:01:13 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:01:20 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:01:27 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:01:44 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m2:34:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m2:34:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css, /src/pages/SitePlanPage.jsx, /src/pages/ReportPage.jsx, /src/layout/AppShell.jsx, /src/pages/ComparePage.jsx, /src/components/Simulator.jsx, /src/components/Advisory.jsx, /src/components/CreateProjectWizard.jsx, /src/components/ScenarioBar.jsx[22m
+[2m2:35:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css, /src/pages/SitePlanPage.jsx, /src/pages/ReportPage.jsx, /src/layout/AppShell.jsx, /src/pages/ComparePage.jsx, /src/components/Simulator.jsx, /src/components/Advisory.jsx, /src/components/CreateProjectWizard.jsx, /src/components/ScenarioBar.jsx[22m
+[2m2:35:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m2:35:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m2:35:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m2:35:34 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:35:34 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/DrainNetwork.jsx, /src/index.css[22m
+[2m2:36:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:36:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:36:21 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:36:29 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m2:53:24 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:53:32 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:53:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:53:55 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:53:55 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:54:08 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:54:08 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:54:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:54:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:54:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:54:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m2:55:10 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/DrainNetwork.jsx, /src/index.css[22m
+[2m2:55:10 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Trees.jsx, /src/index.css[22m
+[2m2:55:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Trees.jsx, /src/index.css[22m
+[2m2:55:58 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/DrainNetwork.jsx, /src/index.css[22m
+[2m3:20:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m3:20:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m3:20:33 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m3:20:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m3:20:54 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m4:17:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m4:18:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m4:18:14 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m4:18:24 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m4:18:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m4:18:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m4:18:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m4:18:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m4:18:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m4:18:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m4:19:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Trees.jsx, /src/index.css[22m
+[2m4:19:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Trees.jsx, /src/index.css[22m
+[2m4:19:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Trees.jsx, /src/index.css[22m
+[2m4:19:16 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Trees.jsx, /src/index.css[22m
+[2m4:19:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Trees.jsx, /src/index.css[22m
+[2m4:19:43 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m4:19:51 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m4:20:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m4:20:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m4:20:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m4:26:38 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m4:26:38 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m4:26:50 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m4:26:50 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m4:27:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m4:27:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m4:27:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m4:27:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m4:27:57 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m4:29:00 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Simulator.jsx, /src/index.css[22m
+[2m4:29:13 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Simulator.jsx, /src/index.css[22m
+[2m4:29:31 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css, /src/pages/SitePlanPage.jsx, /src/pages/ReportPage.jsx, /src/layout/AppShell.jsx, /src/pages/ComparePage.jsx, /src/components/Simulator.jsx, /src/components/Advisory.jsx, /src/components/CreateProjectWizard.jsx, /src/components/ScenarioBar.jsx[22m
+[2m4:29:43 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Simulator.jsx, /src/index.css[22m
+[2m4:31:49 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m4:31:49 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m4:33:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m4:33:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m4:34:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Simulator.jsx, /src/index.css, /src/pages/DashboardPage.jsx, /src/pages/SitePlanPage.jsx, /src/pages/ReportPage.jsx, /src/layout/AppShell.jsx, /src/pages/ComparePage.jsx, /src/components/Advisory.jsx, /src/components/CreateProjectWizard.jsx, /src/components/ScenarioBar.jsx[22m
+[2m5:01:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m5:01:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m5:01:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m5:34:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m5:34:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m5:34:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:34:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:35:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:35:36 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:35:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:35:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:37:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css, /src/pages/SitePlanPage.jsx, /src/pages/ReportPage.jsx, /src/layout/AppShell.jsx, /src/pages/ComparePage.jsx, /src/components/Simulator.jsx, /src/components/Advisory.jsx, /src/components/CreateProjectWizard.jsx, /src/components/ScenarioBar.jsx, /src/components/Schemes.jsx[22m
+[2m5:37:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m5:37:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m5:37:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m5:37:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m5:37:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:37:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:37:37 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:37:45 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:37:55 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:37:55 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:38:05 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:39:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:39:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m5:39:53 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css, /src/components/BOQ.jsx[22m
+[2m5:39:53 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m5:40:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m5:40:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m5:40:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ReportPage.jsx, /src/index.css[22m
+[2m8:29:57 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m10:28:37 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m10:28:37 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m10:28:37 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m10:39:51 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/pages/SitePlanPage.jsx[22m
+[2m10:40:27 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m10:40:27 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m10:40:27 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/MapView.jsx, /src/index.css[22m
+[2m10:40:41 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m10:40:41 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m10:40:43 am[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33mhtml2canvas[32m[39m
+[2m10:40:43 am[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m10:40:54 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m10:41:06 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m10:49:05 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/ui.jsx, /src/index.css[22m
+[2m10:49:15 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:49:15 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:49:23 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:49:33 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:49:33 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Trees.jsx, /src/index.css[22m
+[2m10:49:33 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m10:49:43 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Trees.jsx, /src/index.css[22m
+[2m10:49:50 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/DrainNetwork.jsx, /src/index.css[22m
+[2m10:57:23 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m10:57:23 am[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Parth\climate\frontend\src\pages\SitePlanPage.jsx: Identifier 'site' has already been declared. (120:8)
+
+[0m [90m 118 |[31m   }
+ [90m 119 |[31m
+[31m[1m>[22m[31m[90m 120 |[31m   [36mconst[31m site [33m=[31m {
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 121 |[31m     lat[33m:[31m [33mNumber[31m(project[33m?[31m[33m.[31mlat [33m?[31m[33m?[31m [35m23.082[31m)[33m,[31m
+ [90m 122 |[31m     lng[33m:[31m [33mNumber[31m(project[33m?[31m[33m.[31mlng [33m?[31m[33m?[31m [35m72.493[31m)[33m,[31m
+ [90m 123 |[31m   }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Parth/climate/frontend/src/pages/SitePlanPage.jsx[39m:120:8
+[33m  118|    }
+  119|  
+  120|    const site = {
+     |          ^
+  121|      lat: Number(project?.lat ?? 23.082),
+  122|      lng: Number(project?.lng ?? 72.493),[39m
+      at constructor (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:369:19)
+      at JSXParserMixin.raise (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:6622:19)
+      at ScopeHandler.checkRedeclarationInScope (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:1623:19)
+      at ScopeHandler.declareName (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:1589:12)
+      at JSXParserMixin.declareNameFromIdentifier (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:7590:16)
+      at JSXParserMixin.checkIdentifier (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:7586:12)
+      at JSXParserMixin.checkLVal (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:7523:12)
+      at JSXParserMixin.parseVarId (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13446:10)
+      at JSXParserMixin.parseVar (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13417:12)
+      at JSXParserMixin.parseVarStatement (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13264:10)
+      at JSXParserMixin.parseStatementContent (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12885:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12801:17)
+      at JSXParserMixin.parseStatementListItem (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12781:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13350:61)
+      at JSXParserMixin.parseBlockBody (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13343:10)
+      at JSXParserMixin.parseBlock (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13331:10)
+      at JSXParserMixin.parseFunctionBody (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12134:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12120:10)
+      at C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13479:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12437:14)
+      at JSXParserMixin.parseFunction (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13478:10)
+      at JSXParserMixin.parseExportDefaultExpression (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13941:19)
+      at JSXParserMixin.parseExport (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13862:25)
+      at JSXParserMixin.parseStatementContent (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12912:27)
+      at JSXParserMixin.parseStatementLike (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12801:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12778:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13350:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13343:10)
+      at JSXParserMixin.parseProgram (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12656:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12646:25)
+      at JSXParserMixin.parse (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:14522:25)
+      at parse (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:14556:38)
+      at parser (C:\Users\Parth\climate\frontend\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\Parth\climate\frontend\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\Parth\climate\frontend\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\Parth\climate\frontend\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:261:32)
+      at C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:223:11)
+      at C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:189:28
+      at C:\Users\Parth\climate\frontend\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:113:33
+      at step (C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:287:14)
+      at C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:223:11)
+[2m10:57:49 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/SitePlanPage.jsx, /src/index.css[22m
+[2m11:34:07 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/three/Terrain3D.jsx[22m
+[2m11:34:07 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/three/Terrain3D.jsx[22m
+[2m11:34:13 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/three/Terrain3D.jsx[22m
+[2m11:34:21 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/three/Terrain3D.jsx[22m
+[2m11:34:34 am[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/lib/roofColor.js[22m
+[2m11:34:55 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:35:03 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:35:11 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:43:01 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:43:11 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:43:11 am[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\Parth\climate\frontend\src\three\Terrain3D.jsx: Identifier 'bcx' has already been declared. (867:8)
+
+[0m [90m 865 |[31m   [90m// Proposed block must sit ON the local ground: sample the normalized height[31m
+ [90m 866 |[31m   [90m// under the placed footprint center (architect-movable, default 0.475).[31m
+[31m[1m>[22m[31m[90m 867 |[31m   [36mconst[31m bcx [33m=[31m [33mNumber[31m[33m.[31misFinite(buildingCx) [33m?[31m buildingCx [33m:[31m [35m0.475[31m
+ [90m     |[31m         [31m[1m^[22m[31m
+ [90m 868 |[31m   [36mconst[31m bcy [33m=[31m [33mNumber[31m[33m.[31misFinite(buildingCy) [33m?[31m buildingCy [33m:[31m [35m0.475[31m
+ [90m 869 |[31m   [36mconst[31m buildingGroundY [33m=[31m useMemo(
+ [90m 870 |[31m     () [33m=>[31m gridHeightAt(normGrid [33m||[31m [][33m,[31m bcx[33m,[31m bcy) [33m*[31m [33mM2WORLD[31m[33m,[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/Parth/climate/frontend/src/three/Terrain3D.jsx[39m:867:8
+[33m  865|    // Proposed block must sit ON the local ground: sample the normalized height
+  866|    // under the placed footprint center (architect-movable, default 0.475).
+  867|    const bcx = Number.isFinite(buildingCx) ? buildingCx : 0.475
+     |          ^
+  868|    const bcy = Number.isFinite(buildingCy) ? buildingCy : 0.475
+  869|    const buildingGroundY = useMemo([39m
+      at constructor (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:369:19)
+      at JSXParserMixin.raise (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:6622:19)
+      at ScopeHandler.checkRedeclarationInScope (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:1623:19)
+      at ScopeHandler.declareName (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:1589:12)
+      at JSXParserMixin.declareNameFromIdentifier (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:7590:16)
+      at JSXParserMixin.checkIdentifier (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:7586:12)
+      at JSXParserMixin.checkLVal (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:7523:12)
+      at JSXParserMixin.parseVarId (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13446:10)
+      at JSXParserMixin.parseVar (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13417:12)
+      at JSXParserMixin.parseVarStatement (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13264:10)
+      at JSXParserMixin.parseStatementContent (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12885:23)
+      at JSXParserMixin.parseStatementLike (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12801:17)
+      at JSXParserMixin.parseStatementListItem (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12781:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13350:61)
+      at JSXParserMixin.parseBlockBody (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13343:10)
+      at JSXParserMixin.parseBlock (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13331:10)
+      at JSXParserMixin.parseFunctionBody (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12134:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12120:10)
+      at C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13479:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12437:14)
+      at JSXParserMixin.parseFunction (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13478:10)
+      at JSXParserMixin.parseExportDefaultExpression (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13941:19)
+      at JSXParserMixin.parseExport (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13862:25)
+      at JSXParserMixin.parseStatementContent (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12912:27)
+      at JSXParserMixin.parseStatementLike (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12801:17)
+      at JSXParserMixin.parseModuleItem (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12778:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13350:36)
+      at JSXParserMixin.parseBlockBody (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:13343:10)
+      at JSXParserMixin.parseProgram (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12656:10)
+      at JSXParserMixin.parseTopLevel (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:12646:25)
+      at JSXParserMixin.parse (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:14522:25)
+      at parse (C:\Users\Parth\climate\frontend\node_modules\@babel\parser\lib\index.js:14556:38)
+      at parser (C:\Users\Parth\climate\frontend\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\Parth\climate\frontend\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\Parth\climate\frontend\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\Parth\climate\frontend\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:261:32)
+      at C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:223:11)
+      at C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:189:28
+      at C:\Users\Parth\climate\frontend\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:113:33
+      at step (C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:287:14)
+      at C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\Parth\climate\frontend\node_modules\gensync\index.js:223:11)
+[2m11:43:19 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:43:40 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:43:40 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:43:47 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:53:58 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:54:09 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:54:19 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:54:19 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m
+[2m11:54:19 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:54:33 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/three/Terrain3D.jsx[22m
+[2m11:54:33 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css, /src/three/Terrain3D.jsx[22m
+[2m11:54:41 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:54:51 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:55:00 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:55:55 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m11:56:08 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/three/Terrain3D.jsx, /src/index.css[22m
+[2m12:52:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/CreateProjectWizard.jsx, /src/index.css[22m
+[2m12:52:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/index.css[22m

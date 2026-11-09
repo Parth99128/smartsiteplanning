@@ -1,0 +1,14 @@
+{
+  "city": "pune",
+  "files": [
+    "PMC-SWD-Chambers.kml",
+    "PMC-SWD-Utility-Chambers.kml",
+    "PMC-SWD.kmz",
+    "Pune-Nalla.kml",
+    "Pune-River.kml"
+  ],
+  "lines": 131286,
+  "points": 24421,
+  "dropped_stubs": 12964,
+  "source": "PMC-via-OpenCity"
+}

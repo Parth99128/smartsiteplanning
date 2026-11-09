@@ -1,0 +1,19 @@
+-- invert backfill: 18/18 filled (srtm90m-estimate)
+UPDATE drain_lines SET invert_m=882.8, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:primary-77ecc4e3' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=879.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-34f55f79' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=873.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-7932f568' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=876.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-6bab32db' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=881.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-8a26beea' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=877.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-6f3a1a80' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=875.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-b9a1a5b0' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=875.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-804c2442' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=875.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-d12a0be5' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=878.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-5957de12' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=881.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-78ff6d95' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=879.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-a7ee01f9' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=878.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-5f072248' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=874.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-95e54c32' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=880.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-90555b21' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=882.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-2bfb5acf' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=875.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-70e9652d' AND invert_m IS NULL;
+UPDATE drain_lines SET invert_m=877.55, source=source||' +srtm90m-invert', updated_at=now() WHERE id='bengaluru:tertiary-a5e6fb32' AND invert_m IS NULL;
